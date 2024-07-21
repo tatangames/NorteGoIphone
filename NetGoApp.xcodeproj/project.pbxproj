@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E947EE2BD2E3F5B448DBCB7 /* Pods_NetGoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33115D4B97BC492173F2A3E /* Pods_NetGoAppTests.framework */; };
+		3851E48A7B85A6E49D096EDB /* Pods_NetGoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDF62D70EF0D6FE4568D6CA /* Pods_NetGoApp.framework */; };
+		6734874F2D095449CB0F2390 /* Pods_NetGoApp_NetGoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B042647F5EEF3B72AFDB0C19 /* Pods_NetGoApp_NetGoAppUITests.framework */; };
+		8F1D52992C4D6BDF00CE11D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D52982C4D6BDF00CE11D9 /* AppDelegate.swift */; };
+		8F1D529B2C4D6BDF00CE11D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D529A2C4D6BDF00CE11D9 /* SceneDelegate.swift */; };
+		8F1D529D2C4D6BDF00CE11D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D529C2C4D6BDF00CE11D9 /* ViewController.swift */; };
+		8F1D52A02C4D6BDF00CE11D9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D529F2C4D6BDF00CE11D9 /* Base */; };
+		8F1D52A22C4D6BE100CE11D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D52A12C4D6BE100CE11D9 /* Assets.xcassets */; };
+		8F1D52A52C4D6BE100CE11D9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8F1D52A42C4D6BE100CE11D9 /* Base */; };
+		8F1D52B02C4D6BE100CE11D9 /* NetGoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D52AF2C4D6BE100CE11D9 /* NetGoAppTests.swift */; };
+		8F1D52BA2C4D6BE100CE11D9 /* NetGoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D52B92C4D6BE100CE11D9 /* NetGoAppUITests.swift */; };
+		8F1D52BC2C4D6BE100CE11D9 /* NetGoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1D52BB2C4D6BE100CE11D9 /* NetGoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1D52AC2C4D6BE100CE11D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1D528D2C4D6BDF00CE11D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1D52942C4D6BDF00CE11D9;
+			remoteInfo = NetGoApp;
+		};
+		8F1D52B62C4D6BE100CE11D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1D528D2C4D6BDF00CE11D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1D52942C4D6BDF00CE11D9;
+			remoteInfo = NetGoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2330EBC2334DC58853B55B8E /* Pods-NetGoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoApp.debug.xcconfig"; path = "Target Support Files/Pods-NetGoApp/Pods-NetGoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		32F996BADE6FFAE47CD86F92 /* Pods-NetGoApp-NetGoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoApp-NetGoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NetGoApp-NetGoAppUITests/Pods-NetGoApp-NetGoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		524D3CDFEC057CC2BED9CDB6 /* Pods-NetGoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NetGoAppTests/Pods-NetGoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A828DCCEA44D138A7A26686 /* Pods-NetGoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoApp.release.xcconfig"; path = "Target Support Files/Pods-NetGoApp/Pods-NetGoApp.release.xcconfig"; sourceTree = "<group>"; };
+		65F156C39EDB902B331723C5 /* Pods-NetGoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoAppTests.release.xcconfig"; path = "Target Support Files/Pods-NetGoAppTests/Pods-NetGoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F1D52952C4D6BDF00CE11D9 /* NetGoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetGoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1D52982C4D6BDF00CE11D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F1D529A2C4D6BDF00CE11D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F1D529C2C4D6BDF00CE11D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F1D529F2C4D6BDF00CE11D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F1D52A12C4D6BE100CE11D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F1D52A42C4D6BE100CE11D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F1D52A62C4D6BE100CE11D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1D52AB2C4D6BE100CE11D9 /* NetGoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetGoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1D52AF2C4D6BE100CE11D9 /* NetGoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetGoAppTests.swift; sourceTree = "<group>"; };
+		8F1D52B52C4D6BE100CE11D9 /* NetGoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetGoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1D52B92C4D6BE100CE11D9 /* NetGoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetGoAppUITests.swift; sourceTree = "<group>"; };
+		8F1D52BB2C4D6BE100CE11D9 /* NetGoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetGoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B042647F5EEF3B72AFDB0C19 /* Pods_NetGoApp_NetGoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetGoApp_NetGoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDF62D70EF0D6FE4568D6CA /* Pods_NetGoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetGoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31FF1F64131FFD6B64D28AC /* Pods-NetGoApp-NetGoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetGoApp-NetGoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NetGoApp-NetGoAppUITests/Pods-NetGoApp-NetGoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F33115D4B97BC492173F2A3E /* Pods_NetGoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetGoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1D52922C4D6BDF00CE11D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851E48A7B85A6E49D096EDB /* Pods_NetGoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52A82C4D6BE100CE11D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E947EE2BD2E3F5B448DBCB7 /* Pods_NetGoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52B22C4D6BE100CE11D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6734874F2D095449CB0F2390 /* Pods_NetGoApp_NetGoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1D528C2C4D6BDF00CE11D9 = {
+			isa = PBXGroup;
+			children = (
+				8F1D52972C4D6BDF00CE11D9 /* NetGoApp */,
+				8F1D52AE2C4D6BE100CE11D9 /* NetGoAppTests */,
+				8F1D52B82C4D6BE100CE11D9 /* NetGoAppUITests */,
+				8F1D52962C4D6BDF00CE11D9 /* Products */,
+				A00E834711367F5301E5FC1C /* Pods */,
+				DC5318BE3F84DFFB433D9010 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1D52962C4D6BDF00CE11D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D52952C4D6BDF00CE11D9 /* NetGoApp.app */,
+				8F1D52AB2C4D6BE100CE11D9 /* NetGoAppTests.xctest */,
+				8F1D52B52C4D6BE100CE11D9 /* NetGoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1D52972C4D6BDF00CE11D9 /* NetGoApp */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D52982C4D6BDF00CE11D9 /* AppDelegate.swift */,
+				8F1D529A2C4D6BDF00CE11D9 /* SceneDelegate.swift */,
+				8F1D529C2C4D6BDF00CE11D9 /* ViewController.swift */,
+				8F1D529E2C4D6BDF00CE11D9 /* Main.storyboard */,
+				8F1D52A12C4D6BE100CE11D9 /* Assets.xcassets */,
+				8F1D52A32C4D6BE100CE11D9 /* LaunchScreen.storyboard */,
+				8F1D52A62C4D6BE100CE11D9 /* Info.plist */,
+			);
+			path = NetGoApp;
+			sourceTree = "<group>";
+		};
+		8F1D52AE2C4D6BE100CE11D9 /* NetGoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D52AF2C4D6BE100CE11D9 /* NetGoAppTests.swift */,
+			);
+			path = NetGoAppTests;
+			sourceTree = "<group>";
+		};
+		8F1D52B82C4D6BE100CE11D9 /* NetGoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D52B92C4D6BE100CE11D9 /* NetGoAppUITests.swift */,
+				8F1D52BB2C4D6BE100CE11D9 /* NetGoAppUITestsLaunchTests.swift */,
+			);
+			path = NetGoAppUITests;
+			sourceTree = "<group>";
+		};
+		A00E834711367F5301E5FC1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2330EBC2334DC58853B55B8E /* Pods-NetGoApp.debug.xcconfig */,
+				5A828DCCEA44D138A7A26686 /* Pods-NetGoApp.release.xcconfig */,
+				F31FF1F64131FFD6B64D28AC /* Pods-NetGoApp-NetGoAppUITests.debug.xcconfig */,
+				32F996BADE6FFAE47CD86F92 /* Pods-NetGoApp-NetGoAppUITests.release.xcconfig */,
+				524D3CDFEC057CC2BED9CDB6 /* Pods-NetGoAppTests.debug.xcconfig */,
+				65F156C39EDB902B331723C5 /* Pods-NetGoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC5318BE3F84DFFB433D9010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF62D70EF0D6FE4568D6CA /* Pods_NetGoApp.framework */,
+				B042647F5EEF3B72AFDB0C19 /* Pods_NetGoApp_NetGoAppUITests.framework */,
+				F33115D4B97BC492173F2A3E /* Pods_NetGoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1D52942C4D6BDF00CE11D9 /* NetGoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1D52BF2C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoApp" */;
+			buildPhases = (
+				C06B1513ADE546042DC32E94 /* [CP] Check Pods Manifest.lock */,
+				8F1D52912C4D6BDF00CE11D9 /* Sources */,
+				8F1D52922C4D6BDF00CE11D9 /* Frameworks */,
+				8F1D52932C4D6BDF00CE11D9 /* Resources */,
+				EC1946CD80EB810B822FB9C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetGoApp;
+			productName = NetGoApp;
+			productReference = 8F1D52952C4D6BDF00CE11D9 /* NetGoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1D52AA2C4D6BE100CE11D9 /* NetGoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1D52C22C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoAppTests" */;
+			buildPhases = (
+				1F23C1430749F2A10DDC0BAC /* [CP] Check Pods Manifest.lock */,
+				8F1D52A72C4D6BE100CE11D9 /* Sources */,
+				8F1D52A82C4D6BE100CE11D9 /* Frameworks */,
+				8F1D52A92C4D6BE100CE11D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1D52AD2C4D6BE100CE11D9 /* PBXTargetDependency */,
+			);
+			name = NetGoAppTests;
+			productName = NetGoAppTests;
+			productReference = 8F1D52AB2C4D6BE100CE11D9 /* NetGoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F1D52B42C4D6BE100CE11D9 /* NetGoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1D52C52C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoAppUITests" */;
+			buildPhases = (
+				A09AD9D86339A437CF747FC1 /* [CP] Check Pods Manifest.lock */,
+				8F1D52B12C4D6BE100CE11D9 /* Sources */,
+				8F1D52B22C4D6BE100CE11D9 /* Frameworks */,
+				8F1D52B32C4D6BE100CE11D9 /* Resources */,
+				BCC3FAD9D19F620851A16F04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1D52B72C4D6BE100CE11D9 /* PBXTargetDependency */,
+			);
+			name = NetGoAppUITests;
+			productName = NetGoAppUITests;
+			productReference = 8F1D52B52C4D6BE100CE11D9 /* NetGoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1D528D2C4D6BDF00CE11D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8F1D52942C4D6BDF00CE11D9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8F1D52AA2C4D6BE100CE11D9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8F1D52942C4D6BDF00CE11D9;
+					};
+					8F1D52B42C4D6BE100CE11D9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8F1D52942C4D6BDF00CE11D9;
+					};
+				};
+			};
+			buildConfigurationList = 8F1D52902C4D6BDF00CE11D9 /* Build configuration list for PBXProject "NetGoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F1D528C2C4D6BDF00CE11D9;
+			productRefGroup = 8F1D52962C4D6BDF00CE11D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1D52942C4D6BDF00CE11D9 /* NetGoApp */,
+				8F1D52AA2C4D6BE100CE11D9 /* NetGoAppTests */,
+				8F1D52B42C4D6BE100CE11D9 /* NetGoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1D52932C4D6BDF00CE11D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D52A22C4D6BE100CE11D9 /* Assets.xcassets in Resources */,
+				8F1D52A52C4D6BE100CE11D9 /* Base in Resources */,
+				8F1D52A02C4D6BDF00CE11D9 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52A92C4D6BE100CE11D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52B32C4D6BE100CE11D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F23C1430749F2A10DDC0BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetGoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09AD9D86339A437CF747FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetGoApp-NetGoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC3FAD9D19F620851A16F04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetGoApp-NetGoAppUITests/Pods-NetGoApp-NetGoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetGoApp-NetGoAppUITests/Pods-NetGoApp-NetGoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetGoApp-NetGoAppUITests/Pods-NetGoApp-NetGoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C06B1513ADE546042DC32E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetGoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1946CD80EB810B822FB9C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetGoApp/Pods-NetGoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetGoApp/Pods-NetGoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetGoApp/Pods-NetGoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1D52912C4D6BDF00CE11D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D529D2C4D6BDF00CE11D9 /* ViewController.swift in Sources */,
+				8F1D52992C4D6BDF00CE11D9 /* AppDelegate.swift in Sources */,
+				8F1D529B2C4D6BDF00CE11D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52A72C4D6BE100CE11D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D52B02C4D6BE100CE11D9 /* NetGoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1D52B12C4D6BE100CE11D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1D52BC2C4D6BE100CE11D9 /* NetGoAppUITestsLaunchTests.swift in Sources */,
+				8F1D52BA2C4D6BE100CE11D9 /* NetGoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F1D52AD2C4D6BE100CE11D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1D52942C4D6BDF00CE11D9 /* NetGoApp */;
+			targetProxy = 8F1D52AC2C4D6BE100CE11D9 /* PBXContainerItemProxy */;
+		};
+		8F1D52B72C4D6BE100CE11D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1D52942C4D6BDF00CE11D9 /* NetGoApp */;
+			targetProxy = 8F1D52B62C4D6BE100CE11D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F1D529E2C4D6BDF00CE11D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1D529F2C4D6BDF00CE11D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F1D52A32C4D6BE100CE11D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1D52A42C4D6BE100CE11D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F1D52BD2C4D6BE100CE11D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F1D52BE2C4D6BE100CE11D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1D52C02C4D6BE100CE11D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2330EBC2334DC58853B55B8E /* Pods-NetGoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NorteGo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F1D52C12C4D6BE100CE11D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A828DCCEA44D138A7A26686 /* Pods-NetGoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NorteGo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8F1D52C32C4D6BE100CE11D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524D3CDFEC057CC2BED9CDB6 /* Pods-NetGoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetGoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetGoApp";
+			};
+			name = Debug;
+		};
+		8F1D52C42C4D6BE100CE11D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F156C39EDB902B331723C5 /* Pods-NetGoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetGoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetGoApp";
+			};
+			name = Release;
+		};
+		8F1D52C62C4D6BE100CE11D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31FF1F64131FFD6B64D28AC /* Pods-NetGoApp-NetGoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetGoApp;
+			};
+			name = Debug;
+		};
+		8F1D52C72C4D6BE100CE11D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F996BADE6FFAE47CD86F92 /* Pods-NetGoApp-NetGoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VSDQG6FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatanstudios.NetGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetGoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1D52902C4D6BDF00CE11D9 /* Build configuration list for PBXProject "NetGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1D52BD2C4D6BE100CE11D9 /* Debug */,
+				8F1D52BE2C4D6BE100CE11D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1D52BF2C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1D52C02C4D6BE100CE11D9 /* Debug */,
+				8F1D52C12C4D6BE100CE11D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1D52C22C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1D52C32C4D6BE100CE11D9 /* Debug */,
+				8F1D52C42C4D6BE100CE11D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1D52C52C4D6BE100CE11D9 /* Build configuration list for PBXNativeTarget "NetGoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1D52C62C4D6BE100CE11D9 /* Debug */,
+				8F1D52C72C4D6BE100CE11D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1D528D2C4D6BDF00CE11D9 /* Project object */;
+}
